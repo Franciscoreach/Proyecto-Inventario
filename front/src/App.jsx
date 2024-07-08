@@ -1,5 +1,7 @@
 import { BrowserRouter, Routes, Route, Navigate} from 'react-router-dom'
 import { PaginaLogin } from '../src/pages/PaginaLogin.jsx'
+import './App.css'
+
 
 function App() {
   return (
