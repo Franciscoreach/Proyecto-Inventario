@@ -1,2 +1,3 @@
+mail: invadmin@gmail.com
 user: invadmin
-pass: invadmin1
+user: contraseña1234

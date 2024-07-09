@@ -55,6 +55,12 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+CORS_ALLOWED_ORIGINS = [
+    'http://localhost:5173',
+]
+
+CORS_ALLOW_CREDENTIALS = True
+
 ROOT_URLCONF = 'django_crud_api.urls'
 
 TEMPLATES = [
@@ -143,7 +149,9 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Whitelist de CORS para quien pueda conectarse a la API
 
-CORS_ORIGIN_WHITELIST = []
+CORS_ORIGIN_WHITELIST = [
+    'http://localhost:5173',
+]
 
 REST_FRAMEWORK = {
     'DEFAULT_SCHEMA_CLASS': 'rest_framework.schemas.coreapi.AutoSchema'

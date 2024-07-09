@@ -12,7 +12,7 @@ export function PaginaLogin() {
                     <form class="max-w-lg w-full mx-auto">
                         <div class="mb-12">
                             <h3 class="text-gray-800 text-4xl font-extrabold">Iniciar Sesión</h3>
-                            <p class="text-gray-800 text-sm mt-4 ">No estas registrado <a href="javascript:void(0);" class="text-blue-600 font-semibold hover:underline ml-1 whitespace-nowrap">Registrate acá</a></p>
+                            <p class="text-gray-800 text-sm mt-4 ">No estas registrado <a href="/registro" class="text-blue-600 font-semibold hover:underline ml-1 whitespace-nowrap">Registrate acá</a></p>
                         </div>
 
                         <div>
