@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route, Navigate} from 'react-router-dom'
 import { PaginaLogin } from '../src/pages/PaginaLogin.jsx'
 import { PaginaRegistro } from '../src/pages/PaginaRegistro.jsx'
+import { PaginaDashboard } from '../src/pages/Dashboard.jsx'
 import './App.css'
 
 
@@ -11,6 +12,7 @@ function App() {
         <Route path='/' element={<Navigate to="/login" />}/> 
         <Route path='/login' element={<PaginaLogin />}/> 
         <Route path='/registro' element={<PaginaRegistro />}/> 
+        <Route path='/dashboard' element={<PaginaDashboard />}/> 
       </Routes>
     </BrowserRouter>
   )
