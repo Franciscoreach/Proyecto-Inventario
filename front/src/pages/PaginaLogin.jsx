@@ -30,7 +30,7 @@ export function PaginaLogin() {
             localStorage.setItem('access_token', access);
             localStorage.setItem('refresh_token', refresh);
             Swal.fire({
-                title: 'Success',
+                title: 'Correcto',
                 text: 'Iniciaste sesión correctamente!',
                 icon: 'success',
                 confirmButtonText: 'OK'

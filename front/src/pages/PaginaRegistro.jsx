@@ -112,7 +112,7 @@ export function PaginaRegistro() {
 
                         <div class="mt-12">
                             <button type="submit" class="w-full py-3 px-6 text-sm font-semibold tracking-wider rounded-full text-white bg-gray-800 hover:bg-[#222] focus:outline-none">
-                                Iniciar
+                                Registrarme
                             </button>
                         </div>
                     </form>
